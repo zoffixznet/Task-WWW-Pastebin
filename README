@@ -1,0 +1,59 @@
+Task-WWW-Pastebin
+
+Bundle of WWW::Pastebin::* module
+
+CONTENTS
+
+    'WWW::Pastebin::Bot::Pastebot::Create'      => 0.001,
+    'WWW::Pastebin::Many::Retrieve'             => 0.002,
+    'WWW::Pastebin::NoMorePastingCom::Retrieve' => 0.001,
+    'WWW::Pastebin::NoPasteCom::Create'         => 0.0102,
+    'WWW::Pastebin::PastebinCa::Create'         => 0.001,
+    'WWW::Pastebin::PastebinCa::Retrieve'       => 0.003,
+    'WWW::Pastebin::PastebinCom::Create'        => 0.003,
+    'WWW::Pastebin::PastebinCom::Retrieve'      => 0.002,
+    'WWW::Pastebin::PastieCabooSe::Retrieve'    => 0.001,
+    'WWW::Pastebin::PhpfiCom::Create'           => 0.001,
+    'WWW::Pastebin::PhpfiCom::Retrieve'         => 0.001,
+    'WWW::Pastebin::RafbNet::Create'            => 0.001,
+    'WWW::Pastebin::RafbNet::Retrieve'          => 0.001,
+    'WWW::Pastebin::UbuntuNlOrg::Retrieve'      => 0.001,
+
+INSTALLATION
+
+To install this module, run the following commands:
+
+	perl Build.PL
+	./Build
+	./Build test
+	./Build install
+
+SUPPORT AND DOCUMENTATION
+
+After installing, you can find documentation for this module with the
+perldoc command.
+
+    perldoc Task::WWW::Pastebin
+
+You can also look for information at:
+
+    RT, CPAN's request tracker
+        http://rt.cpan.org/NoAuth/Bugs.html?Dist=Task-WWW-Pastebin
+
+    AnnoCPAN, Annotated CPAN documentation
+        http://annocpan.org/dist/Task-WWW-Pastebin
+
+    CPAN Ratings
+        http://cpanratings.perl.org/d/Task-WWW-Pastebin
+
+    Search CPAN
+        http://search.cpan.org/dist/Task-WWW-Pastebin
+
+
+COPYRIGHT AND LICENCE
+
+Copyright (C) 2008 Zoffix Znet
+
+This program is free software; you can redistribute it and/or modify it
+under the same terms as Perl itself.
+
